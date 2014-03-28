@@ -1,3 +1,4 @@
+'use strict';
 angular.module('<%= appName %>.services', [])
 
 /**
@@ -22,5 +23,5 @@ angular.module('<%= appName %>.services', [])
       // Simple index lookup
       return pets[petId];
     }
-  }
+  };
 });

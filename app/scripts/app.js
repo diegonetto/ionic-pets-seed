@@ -5,6 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
+'use strict';
 angular.module('<%= appName %>', ['ionic', '<%= appName %>.services', '<%= appName %>.controllers'])
 
 
@@ -18,9 +19,9 @@ angular.module('<%= appName %>', ['ionic', '<%= appName %>.services', '<%= appNa
 
     // setup an abstract state for the tabs directive
     .state('tab', {
-      url: "/tab",
+      url: '/tab',
       abstract: true,
-      templateUrl: "templates/tabs.html"
+      templateUrl: 'templates/tabs.html'
     })
 
     // the pet tab has its own child nav-view and history
