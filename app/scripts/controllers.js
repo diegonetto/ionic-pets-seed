@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('<%= appName %>.controllers', [])
 
 
 // A simple controller that fetches a list of data from a service
