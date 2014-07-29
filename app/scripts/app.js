@@ -6,7 +6,7 @@
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
 'use strict';
-angular.module('<%= appName %>', ['ionic', '<%= appName %>.services', '<%= appName %>.controllers'])
+angular.module('<%= appName %>', ['ionic', 'config', '<%= appName %>.services', '<%= appName %>.controllers'])
 
 
 .run(function($ionicPlatform) {
